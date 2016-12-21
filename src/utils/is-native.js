@@ -1,7 +1,7 @@
-const isReactNative =
-  typeof window !== 'undefined' &&
-  window.navigator &&
-  window.navigator.product &&
-  window.navigator.product === 'ReactNative';
+const isReactNative = true;
+//  typeof window !== 'undefined' &&
+//  window.navigator &&
+//  window.navigator.product &&
+//  window.navigator.product === 'ReactNative';
 
 export default isReactNative;
